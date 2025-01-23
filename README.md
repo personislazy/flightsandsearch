@@ -26,3 +26,11 @@ rm -rf file_name
 // npx executes a package or a command from a package
 // we use 
     // npx squelize init
+
+// using sequelize and sequelize-cli for orm works
+// using mysql2 driver to let sequelizer connect to mysql server
+// npx sequelize init 
+    // creates models,migrations,config,seeders folders
+    // moved those into src
+// npx sequelize db:create
+    // creates a db based on the config set in the config folder
